@@ -1,0 +1,64 @@
+.form-alignment {
+	width: 50%;
+	
+	margin: 25px auto;
+}
+
+.form-header {
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+	margin: auto;
+}
+
+.space-top {
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.right {
+	text-align: right;
+}
+
+
+.footer {
+	position: fixed;
+	text-align: center;
+	bottom: 0px;
+	width: 100%;
+}
+
+body {
+	background-image: url(back3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+p.oblique {
+	font-style: oblique;
+}
+
+.imgmargin {
+	margin: 50px 0 0 0
+}
+
+.socialmargin {
+	margin: -35px 20px 0 0
+}
+.usermargin {
+	margin: -15px 20px 0 0
+}
+
+.results-box .jumbotron {
+   background: rgba(226, 226, 226, 0.5); 
+}
+
+.results-box {
+	padding-top: 30px;
+	padding-left: 10%;
+	padding-right: 10%;
+}

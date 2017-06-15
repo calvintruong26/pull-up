@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <ResourceLink name="jdbc/pullup"
+    	global="jdbc/pullup"
+    	type="javax.sql.DataSource"
+    />
+    
+    <Resource
+   	 	name="jdbc/pullup"
+    	auth="Container"
+    	type="javax.sql.DataSource"
+    	maxActive="25"
+    	maxIdle="10"
+    	maxWait="10000"
+    	removeAbandoned="true"
+    	removeAbandonedTimeout="300"
+    	defaultAutoCommit="true"
+    	factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+    	username="root"
+    	password="cs157a"
+    	driverClassName="com.mysql.jdbc.Driver"
+    	url="jdbc:mysql://localhost/Pullup" />
+</Context>
